@@ -1,0 +1,61 @@
+  /*
+   *  See our documentation for full details:
+   *
+   *    https://platform.ifttt.com/docs/testing
+   * 
+   *  What is this?
+   *  
+   *    This JSON document should provide samples for trigger and action fields and,
+   *    if required, a valid user access token corresponding to a test user on your
+   *    service. We will use this data to automatically test your integration.
+   *
+   *    We have generated the scaffold for you, but feel free to update as necessary.
+   *
+   *  Where do I put this?
+   *  
+   *    This should be returned by your API at the following endpoint:
+   *    {{test-setup-url}}
+   *
+   *  `accessToken` (OAuth only)
+   *
+   *    This should be a valid access token that corresponds to a user on your service.
+   *
+   *  `triggers`
+   *
+   *    For all triggers that have trigger fields, provide a set of valid values for
+   *    those trigger fields. These will be used in requests to verify that trigger
+   *    endpoints respond appropriately.
+   *
+   *  `triggerFieldValidations`
+   *
+   *    For all triggers with dynamic validators, provide a valid example and an invalid example.
+   *
+   *  `actions`
+   *
+   *    For all actions, provide a set of valid values for each action field.
+   *
+   *  `actionRecordSkipping`
+   *
+   *    If you have implemented record-skipping for your action, you can optionally
+   *    provide test inputs that cause your action endpoint to return a record-skip response.
+   *
+   *    We highly recommend you implement record-skipping. Learn more:
+   *    https://platform.ifttt.com/docs/api_reference#skipping-actions
+   *
+   */
+
+
+{
+  "data": {
+    "samples": {
+      "actions": {
+        "create_new_thing": {
+        }
+      },
+      "actionRecordSkipping": {
+        "create_new_thing": {
+        }
+      }
+    }
+  }
+}
